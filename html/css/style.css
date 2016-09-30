@@ -1,0 +1,86 @@
+/* hangman project style*/
+html,body{height:100%;margin:0;padding:0;font-size:13px;border-collapse:collapse;overflow:hidden;}
+ul li {list-style:none;}
+input[type='text'], input[type='submit'], input[type='password'] {padding:7px;}
+a {text-decoration:none;}
+
+/* Layout */
+#wrap {width:100%;min-height:100%;padding:0;margin:-100px 0;position:relative;}
+* html #wrap {height: 100%;}
+#content {width:100%;margin:0;padding:0;}
+#content_l {width:79%;min-height:100%;float:left;display:inline;border-right:1px solid #ddd;margin:0;padding:0;}
+* html #content_l {height: 100%;}
+#content_r {width:20%;min-height:100%;float:right;display:inline;}
+#content p {text-align:center;margin-top:20px;}
+#content p input[type='button']{padding:7px 15px;}
+#login {margin:10px;padding:20px;border:1px solid #000;border-radius:3px;}
+
+
+/* Header & Footer */
+#header {width:100%;margin-bottom:100px;padding:25px 0;position:relative;z-index:1;text-align:center;background:#2F2F2F;color:#fff;}
+#header a {color:#fff;}
+#footer {width:100%;left:0;bottom:0;margin:0;padding:40px 0;position:fixed;text-align:center;background:#E0E0E0;color:#000;}
+
+/* Please_login */
+.login_btn {padding-left:3px;}
+.login_btn input[type='submit'] {padding:25px 15px;}
+.please_login {width:100%;margin:0;padding:0;height:900px;text-align:center;background:url('/images/hangman.png') left top no-repeat;text-align:center;}
+.please_login h1 {padding:20px;margin-top:650px;display:inline-block;background:#fff;}
+.please_start {width:100%;height:450px;margin:400px 0 0 0;padding:0;text-align:center;text-align:center;}
+.please_start ul {display:inline-block;margin:0 auto;}
+.please_start li {display:inline;float:left;margin:2px;}
+.please_start li input[type='submit'] {padding:25px 15px;}
+
+/* User Stats */
+.user_stat_box {margin:10px;padding:20px;border:1px solid #ddd;border-radius:3px;background:#f4f4f4;font-size:11px;}
+.user_stat {font-size:11px;padding:0;margin:7px 0 0 0;text-align:center;}
+
+/* Register */
+.register_page{width:320px;margin:0 auto;margin-top:150px;border:1px solid #ededed;border-radius:3px;padding:60px;}
+.register_page input[type='submit'] {padding:25px 15px;}
+.register_page h1 {padding:0;margin:0 0 20px 0; text-align:center;}
+.register_page table {width:50%;}
+
+/* solo_game_panel */
+#panel_wrap {width:100%;padding:0;margin:0;}
+.game_panel {width:100%;padding:0 0 0 0;margin:0 auto;}
+.user_info_solo {text-align:center;font-size:20px;margin:0;padding:0;position:relative;}
+.user_info_solo li {padding:30px 0;}
+.user_info_solo .user_1 {background:#ededed;}
+.user_info {text-align:center;font-size:20px;margin:0;padding:0;position:relative;}
+.user_info li {display:inline;float:left;width:50%;padding:30px 0;margin:0;}
+.user_info .user_1 {background:#ededed;}
+.user_info .user_2 {background:#ddd;}
+
+.panel_box {clear:both;width:100%;margin:0 auto;padding:50px 20px;text-align:center;position:relative;}
+.solo_game_over {margin:0 auto;border:1px solid #ddd;border-radius:3px;margin:50px;padding:60px 0;}
+
+.user_output {width:100%;margin:0;padding:70px 0;text-align:center;position:relative;}
+.user_output ul {display:inline-block;margin:0 auto;padding:0;}
+.user_output ul li{display:inline;float:left;width:40px;height:50px;padding:7px;margin:5px;border:3px solid #000;font-size:30px;}
+
+.user_input {clear:both;position:relative;}
+.user_input ul {width:100%;margin:0;padding:50px 0;text-align:center;}
+.user_input ul li {display:inline;float;left;}
+.user_input ul li input[type='text'] {padding:10px 10px;}
+.user_input ul li input[type='submit'] {padding:10px 20px;}
+
+.wrong_input {width:100%;text-align:center;border-top:1px solid #ddd;padding-top:40px;}
+.wrong_input ul {display:inline-block;margin:0 auto;padding:0;}
+.wrong_input ul li {display:inline;float:left;padding:5px;border-bottom:1px dotted #ddd;font-size:16px;color:#ff0000;}
+
+.page_btn {width:100%;margin:0;padding:20px 0;text-align:center;}
+.page_btn ul {display:inline-block;width:150px;margin:0;padding:0;}
+.page_btn ul li {display:inline;float:left;margin:0 5px;}
+
+/* Game Waiting */
+.game_waiting {text-align:center;margin:0 auto;font-size:20px;text-align:center;}
+
+/* Game over */
+.game_result {font-size:30px;font-weight:500;text-align:center;padding-bottom:70px;}
+.game_win {font-size:40px;color:#0000ff;}
+.game_lose {font-size:40px;color:#ff0000;}
+
+
+
+
